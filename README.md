@@ -1,23 +1,51 @@
-# Educational Quiz Game: A Saga do Conhecimento - Batalha
+<h1 align="center">
+  <br />
+  <img
+    src="src\img\idle.gif"
+    alt="A Saga do Conhecimento - Batalha"
+    width="150"
+  />
+  <br />
+  <b>A Saga do Conhecimento - Batalha</b>
+  <br />
+  <sub
+    ><sup><b>(PYGAME-QUIZ-GAME)</b></sup></sub
+  >
+  <br />
+  
+  
+</h1>
+
 
 A Pygame-based educational quiz game that combines learning with interactive battles.
 
 This project is an engaging educational game designed to help students learn various subjects through a battle-style quiz format. Players select their grade level and subject, then face off against an enemy character by answering questions correctly.
 
-The game features:
-- Multiple subjects and grade levels
-- Interactive battle system
-- Animated characters
-- Dynamic health and mana bars
-- Timed questions
-- Background music and sound effects
+Story Mode coming soon
 
-## Repository Structure
+## Key Features:
+
+🧠 Educational Quizzes: Covers a variety of subjects (Math, Science, History, and more) and grade levels.
+
+⚔️ Battle Mechanics: Answer correctly to attack, defend, or cast spells in turn-based battles.
+
+🎨 Dynamic Visuals: Animated characters and a vibrant, pixel art aesthetic.
+
+🎵 Immersive Audio: Background music and sound effects enhance the gaming experience.
+
+📈 Player Progression: Gain points, unlock abilities, and explore new areas. (coming soon)
+
+
+
+
+## 📂 Repository Structure
+
 
 - `main.py`: The main entry point and game logic
 - `questions.py`: Contains the question database for different subjects and grade levels
 
-## Usage Instructions
+## 🚀 Getting Started
+
 
 ### Installation
 
@@ -28,8 +56,9 @@ The game features:
    ```
 3. Clone the repository:
    ```
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/theezequiel42/saga-do-conhecimento-batalha.git
+   cd saga-do-conhecimento-batalha
+
    ```
 
 ### Running the Game
@@ -40,7 +69,7 @@ To start the game, run:
 python main.py
 ```
 
-### Gameplay
+### 🎮 Gameplay
 
 1. Select your grade level from the main menu
 2. Choose the subjects you want to be quizzed on
@@ -48,7 +77,24 @@ python main.py
 4. Manage your health and mana while battling
 5. Defeat the enemy by reducing their health to zero
 
-### Configuration
+<br />
+  <img
+    src="src\img\gameplay.png"
+    alt="Gameplay"
+    width="1000"
+  />
+  <br />
+
+<br />
+  <img
+    src="src\img\gameplay2.png"
+    alt="Gameplay"
+    width="1000"
+  />
+  <br />
+
+### 🛠️ Configuration
+
 
 The game's configuration, including screen size, colors, and music files, can be adjusted in the `main.py` file.
 
@@ -72,13 +118,13 @@ To add or modify questions, edit the `questions.py` file. Questions are organize
 [Score Calculation] <- [Answer Validation] <- [Timer Management]
 ```
 
-## Infrastructure
+## 🛡️ Infrastructure
 
 The project primarily consists of Python scripts and does not have a dedicated infrastructure stack. However, it does utilize the following key components:
 
 - Pygame: For rendering graphics, handling input, and playing audio
 - Python's built-in `random` module: For randomizing question selection
-- `asyncio`: For handling asynchronous operations (though its usage is limited in the provided code)
+- `asyncio`: For handling asynchronous operations
 
 
 
@@ -112,8 +158,9 @@ pip install pygame
 ```
 3. Clone o repositório:
 ```
-git clone <url-do-repositório>
-cd <diretório-do-repositório>
+git clone https://github.com/theezequiel42/saga-do-conhecimento-batalha.git
+cd saga-do-conhecimento-batalha
+
 ```
 
 ### Executando o jogo
@@ -151,8 +198,8 @@ Para adicionar ou modificar perguntas, edite o arquivo `questions.py`. As pergun
 
 ```
 [Entrada do jogador] -> [Estado do jogo] -> [Seleção de perguntas] -> [Lógica de batalha] -> [Animação do personagem] -> [Atualização da tela]
-^ |
-| v
+^                                                                              |
+|                                                                              v
 [Cálculo da pontuação] <- [Validação da resposta] <- [Gerenciamento do cronômetro]
 ```
 
@@ -162,4 +209,4 @@ O projeto consiste principalmente em scripts Python e não tem uma pilha de infr
 
 - Pygame: para renderizar gráficos, manipular entradas e reproduzir áudio
 - Módulo `random` integrado do Python: para randomizar a seleção de perguntas
-- `asyncio`: para manipular operações assíncronas (embora seu uso seja limitado no código fornecido)
+- `asyncio`: para manipular operações assíncronas
