@@ -1,7 +1,7 @@
 <h1 align="center">
   <br />
   <img
-    src="src\img\idle.png"
+    src="src\img\Idle.png"
     alt="A Saga do Conhecimento - Batalha"
     width="150"
   />
